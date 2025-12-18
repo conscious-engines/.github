@@ -7,6 +7,7 @@ We're creating artificial consciousness that acts, not just responds. The future
 ## Vision
 - Today, we're building products.
 - Tomorrow, we're enabling other companies to build their own proactive intelligence.
+- [manifesto](https://www.consciousengines.com)
   
 # Current Projects
 ## Felix - One Swipe, It's done
