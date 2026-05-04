@@ -1,27 +1,45 @@
-![1500x500-2](https://github.com/user-attachments/assets/a93f246b-bb2b-47ff-a54a-5b8ab7856f98)
+<img width="2504" height="896" alt="CE Logo - Black" src="https://github.com/user-attachments/assets/7f5a7dbf-4614-4f81-8363-8414616e955d" />
 
-# Mission
 
-We're creating artificial consciousness that acts, not just responds. The future of AI isn't about smarter chatbots—it's about intelligent systems that observe, learn, and execute on your behalf. We're building the infrastructure for proactive intelligence that works alongside humanity.
+# Small · Instant · Invisible
 
-## Vision
-- Today, we're building products.
-- Tomorrow, we're enabling other companies to build their own proactive intelligence.
-- [manifesto](https://www.consciousengines.com)
-  
-# Current Projects
-## Felix - One Swipe, It's done
-A proactive AI companion that doesn't just remind you — it gets it done. [Learn More](https://heyfelix.app/landing)
+We build small, specialized AI models so intelligence can be fast, affordable, and invisible — embedded in the products that already do the work.
 
-<img width="48" height="48" alt="logo Small" src="https://github.com/user-attachments/assets/abdf0bd3-5b65-4bc8-bf01-7c5284ca0914" />
+## What we believe
 
-## What Felix does:
+**Small** — specialized beats general. The frontier worth racing to isn't the biggest model that can do anything. It's the smallest model that can do one thing exceptionally well. A well-trained 1B specialist often outperforms a 500B generalist on the tasks it was built for, at a fraction of the cost and latency.
 
-1. Observes your conversations across all platforms (Emails, Calendars, Work tools, personal apps)
-2. Recommends tasks based on your personal context and patterns
-3. Captures your brain dumps
-4. Autonomously executes tasks using 500+ app integrations
-5. Adapts through contextual generative UI
+**Instant** — latency is a feature. When AI responds in 80ms instead of 80s, it stops being a tool you visit and becomes a capability that lives inside everything else you do.
 
-The difference: Other AI assistants wait for commands. Felix anticipates needs, captures intent through voice, and completes work in the background. 
-**It's the shift from reactive tools to proactive intelligence.**
+**Invisible** — the best AI disappears. You don't "launch" your car's ABS or "open" autocorrect. AI should work the same way: inside workflows, inside documents, inside the tools people already use.
+
+[Read the manifesto](https://www.consciousengines.com)
+
+## Research & writing
+
+We publish what worked and what didn't — papers, engineering write-ups, and the dead ends in between.
+
+**Models & results**
+- [Kinetic-4B: A 4B model that outperforms Claude Haiku at tool calling](https://www.consciousengines.com/blog/kinetic-4b-a-4-billion-parameter-model-that-outperforms-claude-haiku-at-tool-calling) — fine-tuned a small open-source model to beat frontier models at picking the right tool with the right arguments. p95 < 2s on a single GPU. *(Apr 2026)*
+- [LLM Inference at the Edge](https://arxiv.org/abs/2603.23640) — mobile, NPU, and GPU performance/efficiency trade-offs under sustained load. *(arXiv, Mar 2026)*
+
+**Distributed training series**
+- [From single-GPU to distributed training: a framework for making the right call](https://www.consciousengines.com/blog/from-single-gpu-to-distributed-training-a-framework-for-making-the-right-call)
+- [DistributedDataParallel: how it actually works](https://www.consciousengines.com/blog/distributeddataparallel-how-it-actually-works)
+- [Tensor parallelism and sequence parallelism](https://www.consciousengines.com/blog/tensor-parallelism-and-sequence-parallelism)
+- [Pipeline parallelism: how it actually works](https://www.consciousengines.com/blog/pipeline-parallelism-how-it-actually-works)
+- [ZeRO and FSDP: model sharding](https://www.consciousengines.com/blog/zero-and-fsdp-model-sharding)
+- [3D parallelism: how frontier models use every GPU](https://www.consciousengines.com/blog/3d-parallelism-how-frontier-models-use-every-gpu)
+
+**Agent systems**
+- [Hybrid lexical–semantic retrieval for tool selection in agent systems](https://www.consciousengines.com/blog/hybrid-lexicalsemantic-retrieval-for-tool-selection-in-agent-systems) — routing natural-language intent across large API catalogs.
+
+[All posts →](https://www.consciousengines.com/blog)
+
+---
+
+We're a small team in Bangalore building the model layer for a world where AI is everywhere and no one has to think about it.
+
+[Open roles](https://www.consciousengines.com/careers) 
+
+[Follow us](https://twitter.com/c_engines)
